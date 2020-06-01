@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	background-image: linear-gradient(rgb(248,248,248), rgb(228,228,228));
+	width: 100vw;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+}
+
+#rest-header {
+	text-decoration: underline;
+	text-decoration-color: rgb(66, 245, 173);
+}
+
+.list {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#folks-list {
+	width: 80vw;
+}
+
+#folks-list li {
+	border: solid 1px black;
+	margin-bottom: -1px;
+	padding: 3px;
+	list-style-type: none;
+}
+
+.remove-button {
+	background-color: rgb(150,60,150);
+	width: auto;
+	height: 100%;
+	color: white;
+	border: solid 1.5px white;
+	float: right;
+	cursor: pointer;
+}
+
+#submit-btn {
+	background-color: rgb(66, 245, 173);
+	border: solid 2px white;
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: bold;
+	height: 40px;
+	width: 40vw;
+	margin-left: 10px;
+}
+
+.record-addition input {
+	display:block;
+	width: 40vw;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.record-addition {
+	margin-left: 10vw;
+	border: solid 2px black;
+	border-radius: 8px;
+	width: 80vw;
+	height: 50vh;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+
+
